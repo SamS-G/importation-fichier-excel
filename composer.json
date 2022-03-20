@@ -1,0 +1,22 @@
+{
+    "name": "samuel/importation-fichier-excel",
+    "description": "importing excel files in database",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.22",
+        "twbs/bootstrap": "^5.1",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\src\\": "src/",
+            "App\\core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Guichardon",
+            "email": "samuel.guichardon@icloud.com"
+        }
+    ]
+}
